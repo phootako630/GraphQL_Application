@@ -3,8 +3,9 @@ import mongoose from "mongoose"
 //connection
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/widgets', {
-    useNewUrlParse: true
-});
+})
+
+// useNewUrlParser has been deprecated
 const widgetSchema = new mongoose.Schema({
     name : {
         type: String
