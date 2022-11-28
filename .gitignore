@@ -1,3 +1,4 @@
 node_modules
 mongo-db-data
 package-lock.json
+.wt
